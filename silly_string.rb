@@ -30,7 +30,7 @@ puts "red orange " + word.capitalize
 # puts "There are #{letter_count} in #{big_word}"
 bword = "walkingaroundthechristmastree"
 lbword = bword.length
-puts "there are #{lbword} in #{bword}."
+puts "there are #{lbword} letters in #{bword}."
 # # Challenge 5: Add "wow" and "mom" to big_word
 
 # bigger_word = "big_word"+"wow"+ "mom" # Use String concatenation to add "wow" and "mom" to big_word
@@ -39,7 +39,8 @@ puts "there are #{lbword} in #{bword}."
 # new_letter_count = "bigger_word.size".length
 
 # puts "There are now #{new_letter_count} in #{bigger_word}"
-
+bbword = "bword" + "wow" + "mom"
+puts "There are now " + bbword.length "letters in #{bbword}."
 # # Challenge 6: Capitalize this sentence properly
 
 # proper_sentence = "i really like programming.".capitalize # Put a . after the string to capitalize it properly.
