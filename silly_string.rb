@@ -40,7 +40,7 @@ puts "there are #{lbword} letters in #{bword}."
 
 # puts "There are now #{new_letter_count} in #{bigger_word}"
 bbword = "bword" + "wow" + "mom"
-puts "There are now " + bbword.length "letters in #{bbword}."
+puts "There are now " + bbword.length + "letters in #{bbword}."
 # # Challenge 6: Capitalize this sentence properly
 
 # proper_sentence = "i really like programming.".capitalize # Put a . after the string to capitalize it properly.
