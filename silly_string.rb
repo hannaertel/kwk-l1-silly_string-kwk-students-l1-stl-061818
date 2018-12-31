@@ -20,7 +20,7 @@ puts "My favorit word is " + word.upcase
 # lowercased_phrase = "phrase".downcase # Put a . after phrase and use a String method.
 
 # puts lowercased_phrase
-
+puts "red orange " + word.capitalize
 # # Challenge 4: Count how many letters are in that big_word
 
 # big_word = "supercalifragilisticexpialidocious"
@@ -28,7 +28,9 @@ puts "My favorit word is " + word.upcase
 # letter_count = "big_word".length # Put a . after big_word and use a String method.
 
 # puts "There are #{letter_count} in #{big_word}"
-
+bword = "walkingaroundthechristmastree"
+lbword = bword.length
+puts "there are #{lbword} in #{bword}."
 # # Challenge 5: Add "wow" and "mom" to big_word
 
 # bigger_word = "big_word"+"wow"+ "mom" # Use String concatenation to add "wow" and "mom" to big_word
