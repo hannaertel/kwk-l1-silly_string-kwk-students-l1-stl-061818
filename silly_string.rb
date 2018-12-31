@@ -39,7 +39,7 @@ puts "there are #{lbword} letters in #{bword}."
 # new_letter_count = "bigger_word.size".length
 
 # puts "There are now #{new_letter_count} in #{bigger_word}"
-bbword = "bword" + "wow" + "mom"
+bbword = bword + "wow" + "mom"
 bblword = bbword.length
 puts "There are now #{bblword} letters in #{bbword}"
 # # Challenge 6: Capitalize this sentence properly
